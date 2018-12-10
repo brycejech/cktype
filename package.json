@@ -1,0 +1,38 @@
+{
+  "name": "cktype",
+  "version": "0.0.1",
+  "description": "Simple JavaScript Type Checking",
+  "main": "dist/cktype.min.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "build/dev":   "npm run build -- --mode development",
+    "build/prod":  "npm run build -- --mode production",
+    "build/watch": "npm run build/dev -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brycejech/cktype.git"
+  },
+  "keywords": [
+    "type",
+    "typeof",
+    "types",
+    "check"
+  ],
+  "author": "Bryce Jech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brycejech/cktype/issues"
+  },
+  "homepage": "https://github.com/brycejech/cktype#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.4",
+    "jest": "^23.6.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
